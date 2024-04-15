@@ -1,0 +1,53 @@
+/* element selector*/
+header
+{
+
+    text-align: center;
+    height:100px;
+   
+    padding:10px;
+    border:5px groove brown;
+    background-color: bisque;
+}
+/* class selector*/
+
+.nav
+{
+    width:500px;
+    height:250px;
+    background-color: cadetblue;
+    display:flex;
+    float:left;
+}
+.nav ul li{
+    list-style-type: none;
+    text-align: left;
+}
+/* class selector*/
+article{
+    height:250px;
+    background-color: transparent;
+    text-align: left;
+    overflow: scroll;
+}
+
+#section
+{
+   
+    padding: 10px;
+    display: flex;
+}
+.footer
+{
+    text-align: center;
+    height:100px;
+    
+    margin:-15px;
+    padding:10px;
+    border:5px groove brown;
+    background-color: bisque; 
+}
+*
+{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

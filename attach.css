@@ -1,0 +1,7 @@
+h2{
+    border:5px dashed rgb(138, 16, 30);
+    width:500px;
+    height: auto;
+    background-image: url('xxn.png');
+   background-attachment: scroll;
+}

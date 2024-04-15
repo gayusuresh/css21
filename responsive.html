@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .para1
+        {
+            background-color: brown;
+        }
+        .para2
+        {
+            background-color:aqua;
+        }
+        .para3
+        {
+            background-color: orange;
+        }
+        @media(min-width:801px)
+        {
+            div p {
+                 width:30%;
+                 float:left;
+                 padding:10px;
+            }
+        }
+        @media(max-width:600px)
+        {
+            body {
+                background-color: chocolate;
+            }
+        }
+        @media(min-width:600px) and (max-width:800px)
+        {
+            body {
+                background-color: cadetblue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptas nam laudantium iure possimus, blanditiis deleniti quod totam, consequatur nihil nulla eveniet repellat quos modi! Consectetur cum quis in nemo!</p>
+        <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptas nam laudantium iure possimus, blanditiis deleniti quod totam, consequatur nihil nulla eveniet repellat quos modi! Consectetur cum quis in nemo!</p>
+
+        <p class="para3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptas nam laudantium iure possimus, blanditiis deleniti quod totam, consequatur nihil nulla eveniet repellat quos modi! Consectetur cum quis in nemo!</p>
+
+    </div>
+</body>
+</html>
